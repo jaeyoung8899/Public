@@ -1,16 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+import MyComponent from "./MyComponent";
 import './App.css';
 
-function App() {
-    const name ='리액트';
-
-    return (
-        <>
-            <div className="react">{name}</div>
-            <input/>
-        </>
-    )
+const App = () => {
+    return <MyComponent />;
 }
 
 export default App;
